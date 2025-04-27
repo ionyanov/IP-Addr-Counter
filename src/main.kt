@@ -5,7 +5,12 @@ import java.util.*
 import kotlin.math.pow
 
 /**
- *
+ * You can run with parameters
+ *  -v 2 -f test/test_data1 -r 1000 -p
+ * * "-v X" - version of use version. By default "v2"
+ * * "-f file_path" - path to processing file. By default "ip_addresses"
+ * * "-r X" - count of record for print processing message. By default "1 000 000"
+ * * "-p" - flag for print processing messages. by default "FALSE"
  */
 fun main(args: Array<String>) = try {
     val ar = MainArgParser(args)
